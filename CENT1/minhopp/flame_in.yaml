@@ -1,0 +1,51 @@
+main:
+    task: minhopp
+    types: Na Cl
+    verbosity   : 1
+    two_level_geopt: True
+
+ann:
+    approach: cent1
+    syslinsolver : operator
+
+potential:
+    potential: ann
+    print_force : True
+    ewald:
+        ewald: True
+        psolver: p3d
+        cell_ortho: True
+        ecut: 3.0
+        ecutz: 4.0
+        rgcut: 5.0
+        alpha: 2.0
+
+geopt:
+    method: SQNM
+    #method: FIRE
+    fmaxtol: 5.E-5
+    condnum: 100.0
+    alphax: 2.0
+    precaution: normal
+    lprint: True
+    #funits: 50.0
+
+geopt_prec:
+    method: SD
+    fmaxtol: 1.E-1
+    alphax: 0.6
+    lprint: True
+
+minhopp:
+    nstep: 150
+    nsoften: 5
+    mdmin: 3
+    etoler: 2.E-4
+    nrandoff: 5
+    eref: -22405.290
+    npminx: 5000
+    #trajectory: False
+    trajectory: True
+    print_force: True
+    minter: 1
+    ekinmax: 0.0150

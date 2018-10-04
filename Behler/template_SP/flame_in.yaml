@@ -1,0 +1,14 @@
+main:
+    task: single_point
+    verbosity: 2
+    types: B 
+
+potential:
+    potential: ann
+    print_force : True
+
+single_point:
+    print_force : True
+
+ann:
+    approach: atombased
