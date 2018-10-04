@@ -1,0 +1,42 @@
+
+CENT:
+Interatomic potentials for ionic systems with density functional
+accuracy based on charge densities obtained by a neural network,
+S. Alireza Ghasemi et al, Phys. Rev. B 92, 045131 (2015).
+
+FIRE:
+Structural Relaxation Made Simple,
+Erik Bitzek et al, Phys. Rev. Lett. 97, 170201 (2006).
+
+SQNM:
+Stabilized quasi-Newton optimization of noisy potential energy surfaces,
+Bastian Schaefer et al, J. Chem. Phys. 142, 034112 (2015).
+
+P3D: 
+A particle-particle, particle-density algorithm for the calculation
+of electrostatic interactions of particles with slablike geometry,
+S. Alireza Ghasemi et al, J. Chem. Phys. 127, 224102 (2007).
+
+P3S:
+Particle-particle, particle-scaling function algorithm for
+electrostatic problems in free boundary conditions,
+Alexey Neelov et al, J. Chem. Phys. 127, 024109 (2007).
+
+P3D-bias:
+A highly accurate and efficient algorithm for electrostatic interactions
+of charged particles confined by parallel metallic plates,
+Samare Rostami et al, J. Chem. Phys. 145, 124118 (2016).
+
+BFGS: Broyden-Fletcher-Goldfarb-Shanno algorithm
+Numerical Optimization,
+Authors: Nocedal, Jorge, Wright, S.
+
+Minima Hopping Method:
+Minima hopping: An efficient search method for the global minimum
+of the potential energy surface of complex molecular systems,
+Stefan Goedecker, J. Chem. Phys. 120, 9911 (2004).
+and
+Crystal structure prediction using the minima hopping method,
+Maximilian Amsler et al, J. Chem. Phys. 133, 224104 (2010).
+
+
