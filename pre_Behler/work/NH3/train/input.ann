@@ -1,0 +1,4 @@
+node:        7 7
+task:        train    #  train or single_point or relax
+seed:        -1       # 3127643 
+energy_ref: -1519.6601621797026

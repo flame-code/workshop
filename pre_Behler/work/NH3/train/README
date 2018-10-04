@@ -1,0 +1,2 @@
+Input files: input.ann,  posinp_train.xyz,  posinp_valid.xyz
+Output files: err_train, err_valid, params.ann

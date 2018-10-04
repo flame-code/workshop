@@ -1,0 +1,3 @@
+Input files: input.ann, posinp.xyz, params.ann
+Output files: monitor_sd, posout.xyz
+** Note that the "posout_DFT.xyz" is here to compare ANN results and DFT.

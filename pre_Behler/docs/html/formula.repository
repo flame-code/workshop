@@ -1,0 +1,3 @@
+\form#0:$ E = f_{1}^{3} \bigg( b_{1}^{3} + \sum_{k=1}^{P} a^{23}_{k1} .f_{k}^{2} \bigg( b_{k}^{2} + \sum_{j=1}^{L} a^{12}_{jk}. f_{j}^{1} \bigg( b_{j}^{1} + \sum_{i=1}^{M} a^{01}_{ij}.G_i \bigg)\bigg)\bigg) $
+\form#1:$ cost: \chi = \frac{1}{Nconf} \sum_i^{Nconf} (E_i^{ANN}-E_i^{DFT})^2 $
+\form#2:$ costd: \frac{\partial \chi}{\partial W_i}= \frac{1}{Nconf} \sum_i^{Nconf} 2 (E_i^{ANN}-E_i^{DFT}) \frac{\partial E_i^{ANN}}{\partial W_i} $
