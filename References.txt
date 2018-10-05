@@ -39,4 +39,23 @@ and
 Crystal structure prediction using the minima hopping method,
 Maximilian Amsler et al, J. Chem. Phys. 133, 224104 (2010).
 
+Nose-Hoover:
+Nose–Hoover chains: The canonical ensemble via continuous dynamics,
+Glenn J. Martyna et al, J. Chem. Phys. 97, 2635 (1998).
+
+Extended Kalman filter:
+A recursive algorithm based on the extended Kalman filter for
+the training of feedforward neural models,
+IsabelleRivals et al, Neurocomputing, 20, 279 (1998).
+
+Bader: TO BE ADDED LATER
+
+Behler: TO BE ADDED LATER
+
+Overlap symmetry functions:
+Metrics for measuring distances in configuration spaces, 
+Ali Sadeghi et al, J. Chem. Phy. 139, 184118 (2013).
+
+A fingerprint based metric for measuring similarities of crystalline structures,
+Li Zhu et al, J. Chem. Phys. 144, 034203 (2016).
 

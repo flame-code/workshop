@@ -13,10 +13,10 @@ subroutine set_annweights(w,n_weight,seed)
     call srand(seed)
     write(*,*)"seed =" ,seed
     do i=1,n_weight
-!    call random_number(w(i))
-            w(i)=rand()
-            tt=2.d0*ampl_rand
-            w(i)=(w(i)-0.5d0)*tt
+        call random_number(w(i))
+        !w(i)=rand()
+        tt=2.d0*ampl_rand
+        w(i)=(w(i)-0.5d0)*tt
     enddo
     write(*,*) 'number of ANN wights:             ',n_weight
 end subroutine set_annweights
