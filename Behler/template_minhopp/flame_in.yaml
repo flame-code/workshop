@@ -1,0 +1,32 @@
+ main:
+   task: minhopp
+   two_level_geopt: True
+   types: B
+
+ potential:
+   potential: ann
+
+ geopt:
+   method: FIRE
+   fmaxtol: 2.E-5
+   alphax: 3.0
+   lprint: True
+   print_force: True
+   dt_start: 1.E-2
+   dt_max: 1.0
+
+ geopt_prec:
+   method: SD
+   fmaxtol: 1.E-3
+   alphax: 2.0
+
+ minhopp:
+   nstep: 10
+   nsoften: 20
+   mdmin: 3
+   etoler: 1.E-3
+   nrandoff: 5
+   eref: -44.325801
+   npminx: 5000
+   trajectory: True
+   print_force: True

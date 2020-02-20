@@ -1,0 +1,51 @@
+main:
+    task: minhocao
+    verbosity: 0
+    types: B
+    nat: 12
+    typat: 12*1
+    pressure: 0.0
+    verbose: 1
+    znucl: [5.0]
+    amass: [4.0]
+    findsym: True
+
+potential:
+    potential: ann
+    core_rep: True
+
+ann:
+    approach: atombased
+
+geopt:
+    nit: 1900
+    #geoext: False
+    method: FIRE
+    fmaxtol: 1.E-4
+    strfact: 100.0
+    dt_start: 5.0
+    dt_min: 1.0
+    dt_max: 140.0
+
+dynamics:
+    nmd: 1000
+    cellmass: 2.0
+    dt_init: 20.0
+    auto_mdmin: True
+    auto_mddt: True
+    nit_per_min: 30
+    mdmin_min: 2
+    mdmin_max: 4
+
+minhopp:
+    auto_soft: True
+    nsoften: 20
+    alpha_at: 1.0
+    alpha_lat: 1.0
+
+fingerprint:
+    method: OGANOV
+    rcut: 30.0
+    #dbin: 0.06
+    #sigma: 0.04
+
