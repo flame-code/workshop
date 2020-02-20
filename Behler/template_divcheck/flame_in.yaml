@@ -1,0 +1,10 @@
+main:
+    task: ann
+    types: B
+
+ann:
+    subtask: check_symmetry_function
+    etol: 1.E-4
+    dtol: 25.E-2
+    normalization: True
+    read_forces: False
